@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="description" content=".....,....,....," />
+    <meta name="key worlds" content=" " />
+    <meta name="author" content=" " />
+    <meta http-equiv="refresh" content="for go in other  use url" />
+    <title>editor</title>
+  </head>
+  <body lang="en">
+    <div id="cont">
+      <div id="img">
+        <img id="img1" />
+        <canvas id="can"></canvas>
+        <input type="file" id="btn" />
+      </div>
+      <div id="rangeC">
+        <ul id="range">
+          <li>
+            <label for="Saturate">Saturate</label><br />
+            <input
+              id="Saturate"
+              class="range"
+              type="range"
+              min="0"
+              max="200"
+              value="100"
+            />
+          </li>
+          <li>
+            <label for="Contrast">Contrast</label><br />
+            <input
+              id="Contrast"
+              class="range"
+              type="range"
+              min="0"
+              max="200"
+              value="100"
+            />
+          </li>
+          <li>
+            <label for="Brightness">Brightness</label><br />
+            <input
+              id="Brightness"
+              class="range"
+              type="range"
+              min="0"
+              max="200"
+              value="100"
+            />
+          </li>
+          <li>
+            <label for="Sepia">Sepia</label><br />
+            <input
+              id="Sepia"
+              class="range"
+              type="range"
+              min="0"
+              max="200"
+              value="0"
+            />
+          </li>
+          <li>
+            <label for="Grayscale">Grayscale</label><br />
+            <input
+              id="Grayscale"
+              class="range"
+              type="range"
+              min="0"
+              max="1"
+              value="0"
+              step="0.1"
+            />
+          </li>
+          <li>
+            <label for="Blur">Blur</label><br />
+            <input
+              id="Blur"
+              class="range"
+              type="range"
+              min="0"
+              max="10"
+              value="0"
+              step="0.1"
+            />
+          </li>
+          <li>
+            <label for="Hue-Rotate">Hue Rotate</label><br />
+            <input
+              id="Hue-Rotate"
+              class="range"
+              type="range"
+              min="0"
+              max="350"
+              value="0"
+            />
+          </li>
+        </ul>
+        <li id="bTns">
+          <a download="image from editor" class="btn" id="download">Download</a>
+          <button class="btn" id="Reset">Reset</button>
+        </li>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
